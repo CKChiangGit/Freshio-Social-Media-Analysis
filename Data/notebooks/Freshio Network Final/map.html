@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3dfdf2ee81546a11857c969867e52934 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3dfdf2ee81546a11857c969867e52934" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3dfdf2ee81546a11857c969867e52934 = L.map(
+                "map_3dfdf2ee81546a11857c969867e52934",
+                {
+                    center: [1.3521, 103.8198],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_740083e4765a1af4cda735bd2aa85d88 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var marker_7928477c3b5305b063c2c93375e1c6d1 = L.marker(
+                [1.2758894375, 103.845923675],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_95b5a6c1e79fe4ae0bc0bc8424d66f50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7928477c3b5305b063c2c93375e1c6d1.setIcon(icon_95b5a6c1e79fe4ae0bc0bc8424d66f50);
+        
+    
+        var popup_219ab38f1334ca4ad35e63d95549a400 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6ff418493cace514e69d5cb7f1cf4ad2 = $(`<div id="html_6ff418493cace514e69d5cb7f1cf4ad2" style="width: 100.0%; height: 100.0%;">The Muscle Lab SG&lt;br&gt;https://instagram.com/muscle_lab_sg/</div>`)[0];
+                popup_219ab38f1334ca4ad35e63d95549a400.setContent(html_6ff418493cace514e69d5cb7f1cf4ad2);
+            
+        
+
+        marker_7928477c3b5305b063c2c93375e1c6d1.bindPopup(popup_219ab38f1334ca4ad35e63d95549a400)
+        ;
+
+        
+    
+    
+            marker_7928477c3b5305b063c2c93375e1c6d1.bindTooltip(
+                `<div>
+                     The Muscle Lab SG
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_df0ae947497ad25fbc9f95658ee4522f = L.marker(
+                [1.32098, 103.90551],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_46a3df83dc2f2c51c9c86e15e1202058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df0ae947497ad25fbc9f95658ee4522f.setIcon(icon_46a3df83dc2f2c51c9c86e15e1202058);
+        
+    
+        var popup_c4275bf5c0e153c3fc6acf32d0ee75d2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5da9658e6ab65a69afe2509acb9f588a = $(`<div id="html_5da9658e6ab65a69afe2509acb9f588a" style="width: 100.0%; height: 100.0%;">VEGANBURG Singapore&lt;br&gt;https://instagram.com/veganburgsg/</div>`)[0];
+                popup_c4275bf5c0e153c3fc6acf32d0ee75d2.setContent(html_5da9658e6ab65a69afe2509acb9f588a);
+            
+        
+
+        marker_df0ae947497ad25fbc9f95658ee4522f.bindPopup(popup_c4275bf5c0e153c3fc6acf32d0ee75d2)
+        ;
+
+        
+    
+    
+            marker_df0ae947497ad25fbc9f95658ee4522f.bindTooltip(
+                `<div>
+                     VEGANBURG Singapore
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_ab4f2ac582678b3ac5cea9030cf761c3 = L.marker(
+                [1.31283355, 103.9246880875],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_220ca60b89a238ca8fe0cd6ea5c80007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab4f2ac582678b3ac5cea9030cf761c3.setIcon(icon_220ca60b89a238ca8fe0cd6ea5c80007);
+        
+    
+        var popup_010817f1bc2164faf04697f4b1c6035a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d708a879abd2de55b80c25a42108d73a = $(`<div id="html_d708a879abd2de55b80c25a42108d73a" style="width: 100.0%; height: 100.0%;">Blu Kouzina Siglap&lt;br&gt;https://instagram.com/blukouzina.siglap/</div>`)[0];
+                popup_010817f1bc2164faf04697f4b1c6035a.setContent(html_d708a879abd2de55b80c25a42108d73a);
+            
+        
+
+        marker_ab4f2ac582678b3ac5cea9030cf761c3.bindPopup(popup_010817f1bc2164faf04697f4b1c6035a)
+        ;
+
+        
+    
+    
+            marker_ab4f2ac582678b3ac5cea9030cf761c3.bindTooltip(
+                `<div>
+                     Blu Kouzina Siglap
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_c5f4c4e9a28e15ab555f19048854ac05 = L.marker(
+                [1.2750822333333334, 103.84363493333332],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_7f1ec6c03ce111a99f97c39e2d1156ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5f4c4e9a28e15ab555f19048854ac05.setIcon(icon_7f1ec6c03ce111a99f97c39e2d1156ee);
+        
+    
+        var popup_93936a2244981795df0a00770ed77eb8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_af539ea639efee92b66a1eb86c89ae6b = $(`<div id="html_af539ea639efee92b66a1eb86c89ae6b" style="width: 100.0%; height: 100.0%;">Bar-Roque Grill&lt;br&gt;https://instagram.com/barroquegrill/</div>`)[0];
+                popup_93936a2244981795df0a00770ed77eb8.setContent(html_af539ea639efee92b66a1eb86c89ae6b);
+            
+        
+
+        marker_c5f4c4e9a28e15ab555f19048854ac05.bindPopup(popup_93936a2244981795df0a00770ed77eb8)
+        ;
+
+        
+    
+    
+            marker_c5f4c4e9a28e15ab555f19048854ac05.bindTooltip(
+                `<div>
+                     Bar-Roque Grill
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_1195fcdcd4db7d8d84b93e4212240dc7 = L.marker(
+                [1.2839006, 103.86467415],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_6fc40af2793618ed68072643b7a21767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1195fcdcd4db7d8d84b93e4212240dc7.setIcon(icon_6fc40af2793618ed68072643b7a21767);
+        
+    
+        var popup_ff0dd515f7a476cff9ce7291793f250b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cb9eff00388f893cc0dc5a8b8be3b08a = $(`<div id="html_cb9eff00388f893cc0dc5a8b8be3b08a" style="width: 100.0%; height: 100.0%;">Majestic Bay Seafood SG&lt;br&gt;https://instagram.com/majesticbayrestaurantsg/</div>`)[0];
+                popup_ff0dd515f7a476cff9ce7291793f250b.setContent(html_cb9eff00388f893cc0dc5a8b8be3b08a);
+            
+        
+
+        marker_1195fcdcd4db7d8d84b93e4212240dc7.bindPopup(popup_ff0dd515f7a476cff9ce7291793f250b)
+        ;
+
+        
+    
+    
+            marker_1195fcdcd4db7d8d84b93e4212240dc7.bindTooltip(
+                `<div>
+                     Majestic Bay Seafood SG
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+    
+            var marker_709c87368def7b93bc4c08dbfc7e70ab = L.marker(
+                [1.3180278, 103.9319406],
+                {}
+            ).addTo(map_3dfdf2ee81546a11857c969867e52934);
+        
+    
+            var icon_519c78e49450ad6fc1a7cf387f24b5c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_709c87368def7b93bc4c08dbfc7e70ab.setIcon(icon_519c78e49450ad6fc1a7cf387f24b5c5);
+        
+    
+        var popup_8addeccbfc8f55590c3b7791287abd2c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b26b3373342b73aaf36335853f627ce0 = $(`<div id="html_b26b3373342b73aaf36335853f627ce0" style="width: 100.0%; height: 100.0%;">Packaging Genie&lt;br&gt;https://instagram.com/packageniesg/</div>`)[0];
+                popup_8addeccbfc8f55590c3b7791287abd2c.setContent(html_b26b3373342b73aaf36335853f627ce0);
+            
+        
+
+        marker_709c87368def7b93bc4c08dbfc7e70ab.bindPopup(popup_8addeccbfc8f55590c3b7791287abd2c)
+        ;
+
+        
+    
+    
+            marker_709c87368def7b93bc4c08dbfc7e70ab.bindTooltip(
+                `<div>
+                     Packaging Genie
+                 </div>`,
+                {"permanent": true, "sticky": true}
+            );
+        
+</script>
+</html>
